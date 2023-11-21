@@ -1,8 +1,9 @@
 # frozen_string_literal: true
 
-require 'solidus_core'
-require 'solidus_multi_vendor/engine'
+require 'solidus_multi_vendor/configuration'
 require 'solidus_multi_vendor/version'
+require 'solidus_multi_vendor/engine'
+require 'solidus_core'
 require 'solidus_support'
 
 module SolidusMultiVendor
